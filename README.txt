@@ -1,1 +1,8 @@
-TIDAL FRONTIER 3D — MULTIPLAYER UPDATE\n\nUpload all extracted files to your separate 3D GitHub repository root. Render Web Service: npm install / npm start.\n\nWASD camera-relative movement (A left, D right), Shift sprint, mouse drag to look. B boards shared boat when near dock. Friends join the SAME Render URL and see each other; they can ride the boat together by boarding near the dock. F cast, wait for bite, F hook, hold SPACE to reel and release when tension is high.\n\n3D multiplayer uses server polling, not WebSockets; shared boat is a prototype with co-located riders, not a fully synchronized physics vehicle. Catches are session-only and do not save to accounts yet. Clan actions still require a login token.\n
+Tidal Frontier 3D controls + global chat fix
+
+A = left, D = right (corrected camera-relative strafe sign).
+Chat is shared among players on the same server; press Enter to send.
+Chat is temporary and clears on server restart.
+
+Upload ALL files from this ZIP to the root of your separate 3D GitHub repository. Redeploy the Node server on Render. Open the Render URL and test with two browser windows/devices.
+No changes to your separate 2D repository are needed.
